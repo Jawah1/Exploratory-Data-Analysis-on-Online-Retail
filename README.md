@@ -2,11 +2,12 @@
 Performing exploratory data analysis of the features of the Unicorn Companies dataset to draw insights and provide recommendations to help Unicorn Companies create good business models and make decisions that will lead companies with high growth potential, diversify investment portfolios, and prioritize companies with experienced leadership teams.
 
 # Investigation Overview
+Perform customer behavioral analysis to enhance customer retention and satisfaction of online retail, geared toward business improvement.
 
 # Data Overview
 
 # Problem Statement
-Perform customer behavioral analysis to enhance customer retention and satisfaction of online retail, geared toward business improvement.
+
 #Data Preprocessing/Wrangling
 We will handle the missing values for Description and CustomerID by using the imputing with mode method to replace the null values in description, and replace the null values with unknown, respectively.
 
