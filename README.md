@@ -99,3 +99,15 @@ time_of_purchases
 
 ![image](https://github.com/Jawah1/Exploratory-Data-Analysis-on-Online-Retail/assets/131864852/41ba4890-a85f-45ad-9f99-b07b22655031)
 
+# Top 5 Products by Sales
+
+![image](https://github.com/Jawah1/Exploratory-Data-Analysis-on-Online-Retail/assets/131864852/5f8c5c7a-d775-4cea-b38f-cc3594f8bcc8)
+
+
+# Relationship Between Sales and Quantity
+
+
+![image](https://github.com/Jawah1/Exploratory-Data-Analysis-on-Online-Retail/assets/131864852/7adfd02e-9a46-47a8-86a4-306866efab74)
+
+
+
