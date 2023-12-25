@@ -83,6 +83,6 @@ time_of_purchases
 
 ![image](https://github.com/Jawah1/Exploratory-Data-Analysis-on-Online-Retail/assets/131864852/545958b7-ac27-4caf-9937-241f6d76fd46)
 
-# Top5 Customers
+# Top5 Customers with the most purchase
 
 ![image](https://github.com/Jawah1/Exploratory-Data-Analysis-on-Online-Retail/assets/131864852/c5cfe268-5427-49b2-809b-c7d549d2b88b)
