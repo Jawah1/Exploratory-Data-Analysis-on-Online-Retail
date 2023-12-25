@@ -9,9 +9,7 @@ Perform customer behavioral analysis to enhance customer retention and satisfact
 The data feature includes InvoiceNo, StockCode,	Description	Quantity, InvoiceDate, UnitPric, CustomerID, Country.
 
 # Data Preparation
-First, we import the libraries 
-
-# Import necessary libraries
+Let's import all  necessary libraries
 import numpy as np
 import pandas as pd
 
