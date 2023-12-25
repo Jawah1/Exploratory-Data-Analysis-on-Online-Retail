@@ -86,3 +86,16 @@ time_of_purchases
 # Top5 Customers with the most purchase
 
 ![image](https://github.com/Jawah1/Exploratory-Data-Analysis-on-Online-Retail/assets/131864852/c5cfe268-5427-49b2-809b-c7d549d2b88b)
+
+
+# Bivariate Analysis
+
+# Top 5 Country by Total Sales
+ 
+![image](https://github.com/Jawah1/Exploratory-Data-Analysis-on-Online-Retail/assets/131864852/538a5724-a866-4c50-9a90-135ed871791b)
+
+
+# Monthlt Total Sales Over Time
+
+![image](https://github.com/Jawah1/Exploratory-Data-Analysis-on-Online-Retail/assets/131864852/41ba4890-a85f-45ad-9f99-b07b22655031)
+
