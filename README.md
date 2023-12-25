@@ -110,4 +110,10 @@ time_of_purchases
 ![image](https://github.com/Jawah1/Exploratory-Data-Analysis-on-Online-Retail/assets/131864852/7adfd02e-9a46-47a8-86a4-306866efab74)
 
 
+# Total Sales By Year
 
+![image](https://github.com/Jawah1/Exploratory-Data-Analysis-on-Online-Retail/assets/131864852/6040cd72-59e3-4940-97d9-bb8f2fb27579)
+
+Correlation Matrix of Numerical Columns
+
+![image](https://github.com/Jawah1/Exploratory-Data-Analysis-on-Online-Retail/assets/131864852/4b92960d-e658-4e3f-aa19-3258ec4a0b30)
