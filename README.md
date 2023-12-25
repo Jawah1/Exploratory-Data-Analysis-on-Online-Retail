@@ -67,5 +67,11 @@ df.describe()
 
 ![image](https://github.com/Jawah1/Exploratory-Data-Analysis-on-Online-Retail/assets/131864852/cb530902-1ad3-449a-bad7-ddf6511052d6)
 
+# Top 5 customers with the most purchases
+top5_customer = df['CustomerID'].value_counts().head()
+top5_customer
+
+
+
 
 
