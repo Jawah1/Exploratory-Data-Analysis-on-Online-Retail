@@ -15,7 +15,7 @@ First, we import the libraries
 import numpy as np
 import pandas as pd
 
-# for visuals
+for visuals
 import matplotlib.pyplot as plt
 import seaborn as sns
 
@@ -25,5 +25,70 @@ df
 df. shape
 
 ![image](https://github.com/Jawah1/Exploratory-Data-Analysis-on-Online-Retail/assets/131864852/32b9ece8-8fc3-4309-9027-1687e8f0496f)
+
+Now let's look at the size of our data 
+shape of data
+df.shape
+
+(541909, 8)
+
+
+Info of the data
+df.info()
+
+<class 'pandas.core.frame.DataFrame'>
+RangeIndex: 541909 entries, 0 to 541908
+Data columns (total 8 columns):
+ #   Column       Non-Null Count   Dtype  
+---  ------       --------------   -----  
+ 0   InvoiceNo    541909 non-null  object 
+ 1   StockCode    541909 non-null  object 
+ 2   Description  540455 non-null  object 
+ 3   Quantity     541909 non-null  int64  
+ 4   InvoiceDate  541909 non-null  object 
+ 5   UnitPrice    541909 non-null  float64
+ 6   CustomerID   406829 non-null  float64
+ 7   Country      541909 non-null  object 
+dtypes: float64(2), int64(1), object(5)
+memory usage: 33.1+ MB
+
+
+ checking for missing values
+df.isnull().sum()
+
+InvoiceNo           0
+StockCode           0
+Description      1454
+Quantity            0
+InvoiceDate         0
+UnitPrice           0
+CustomerID     135080
+Country             0
+dtype: int64
+
+# Data Cleaning/Wrangling
+
+Here is a summary of the cleaning process
+
+We will handle the missing values for Description and CustomerID by using the imputing with mode method to replace the null values in description, and replace the null values with unknown, respectively.
+
+We will replace negative values in UnitPrice with 0, and replace the negative values in Quantity with the weighted median of Quantity.
+
+We will create an additional column called Sales by multiplying the UnitPrice by Quantity
+
+We will convert the InvoiceDate to a datetime data type
+
+We will convert the CustomerID from float to object/string data type
+
+We will replace the Country RSA and EIRE with South Africa and Ireland, respectively
+
+# Univariate Analysis
+Considering the distribution of a variable or feature and its visualization
+
+statistical summary of the data
+df.describe()
+
+![image](https://github.com/Jawah1/Exploratory-Data-Analysis-on-Online-Retail/assets/131864852/cb530902-1ad3-449a-bad7-ddf6511052d6)
+
 
 
