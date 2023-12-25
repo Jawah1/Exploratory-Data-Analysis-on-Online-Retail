@@ -39,7 +39,8 @@ df.info()
 <class 'pandas.core.frame.DataFrame'>
 RangeIndex: 541909 entries, 0 to 541908
 Data columns (total 8 columns):
- #   Column       Non-Null Count   Dtype  
+
+    Column       Non-Null Count   Dtype  
 ---  ------       --------------   -----  
  0   InvoiceNo    541909 non-null  object 
  1   StockCode    541909 non-null  object 
