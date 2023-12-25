@@ -6,18 +6,24 @@ Perform customer behavioral analysis to enhance customer retention and satisfact
 
 # Data Overview
 
-# Problem Statement
+The data feature includes InvoiceNo, StockCode,	Description	Quantity, InvoiceDate, UnitPric, CustomerID, Country.
 
-#Data Preprocessing/Wrangling
-We will handle the missing values for Description and CustomerID by using the imputing with mode method to replace the null values in description, and replace the null values with unknown, respectively.
+# Data Preparation
+First, we import the libraries 
 
-We will replace negative values in UnitPrice with 0, and replace the negative values in Quantity with the weighted median of Quantity.
+# Import necessary libraries
+import numpy as np
+import pandas as pd
 
-We will create an additional column called Sales by multiplying the UnitPrice by Quantity
+# for visuals
+import matplotlib.pyplot as plt
+import seaborn as sns
 
-We will convert the InvoiceDate to a datetime data type
+# Import and read file
+df = pd.read_csv(r"C:\Users\LENOVO\Desktop\OnlineRetail.csv",encoding='ISO-8859-1') 
+df
+df. shape
 
-We will convert the CustomerID from float to object/string data type
+![image](https://github.com/Jawah1/Exploratory-Data-Analysis-on-Online-Retail/assets/131864852/32b9ece8-8fc3-4309-9027-1687e8f0496f)
 
-We will replace the Country RSA and EIRE with South Africa and Ireland, respectively.
 
