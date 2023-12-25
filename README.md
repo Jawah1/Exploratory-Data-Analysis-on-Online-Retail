@@ -117,3 +117,9 @@ time_of_purchases
 Correlation Matrix of Numerical Columns
 
 ![image](https://github.com/Jawah1/Exploratory-Data-Analysis-on-Online-Retail/assets/131864852/4b92960d-e658-4e3f-aa19-3258ec4a0b30)
+
+# Reccomendations
+
+The data indicates that the United Kingdom has the highest number of purchases, sales generated, and quantity of items sold, which suggests a strong demand for products in that region. To maximize growth and revenue, the marketing team should focus their strategies on this area. Additionally, the company should target countries such as France, Germany, and the Netherlands to improve sales in those regions.
+
+To encourage repeat purchases, customers with high purchasing power should be offered discounted prices. It is also recommended to provide special recognition and appreciation to these customers on their birthdays, as well as sending them gifts on their special occasions. This will demonstrate the company’s appreciation for their continued patronage.
